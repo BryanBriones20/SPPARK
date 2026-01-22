@@ -2,7 +2,7 @@
 **System for Pick and Place Automation with Robotic Kinematics**
 
 Sppark es un prototipo de sistema de clasificación automática que integra **robótica**, **visión artificial** y **comunicación en red**.  
-El objetivo principal es clasificar objetos en distintas zonas utilizando un **robot manipulador de 5 GDL**, una **banda transportadora**, un **sensor de proximidad** y una **cámara web**.
+El objetivo principal es clasificar objetos en distintas zonas utilizando un **robot manipulador de 6 GDL**, una **banda transportadora**, un **sensor de proximidad** y una **cámara web**.
 
 ---
 
@@ -22,14 +22,14 @@ Toda la información se gestiona a través de una **base de datos Firebase**, a 
 
 ## 🎮 Modo manual
 Además del modo automático de clasificación, Sppark incluye un **modo manual**, donde el usuario puede:
-- Controlar cada articulación del **robot de 5 GDL** mediante **sliders** en la aplicación móvil.
+- Controlar cada articulación del **robot de 6 GDL** mediante **sliders** en la aplicación móvil.
 - Ajustar la **velocidad de movimiento del robot**, permitiendo hacerlo más rápido o más lento según los requerimientos de la tarea.
 - Tener un control preciso del robot para pruebas, calibraciones o movimientos específicos.
 
 ---
 
 ## 🤖 Diseño del brazo robótico
-El **brazo robótico de 5 GDL** utilizado en este proyecto es de **diseño propio**, desarrollado completamente desde cero por el equipo.  
+El **brazo robótico de 6 GDL** utilizado en este proyecto es de **diseño propio**, desarrollado completamente desde cero por el equipo.  
 - Se realizó el **diseño CAD** de cada una de sus articulaciones y eslabones, considerando la cinemática necesaria para las tareas de clasificación.  
 - El diseño mecánico se orientó a lograr una **estructura ligera, precisa y resistente**, adecuada para un prototipo de automatización de bajo costo.  
 - La arquitectura del robot permite tanto el **modo automático de clasificación**, como el **modo manual**, donde cada articulación puede controlarse de forma independiente mediante sliders en la aplicación.  
